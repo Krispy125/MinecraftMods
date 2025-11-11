@@ -1,6 +1,7 @@
 package net.kris.testmod.item;
 
 import net.kris.testmod.TestMod;
+import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -16,6 +17,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> CORNDOGCAT = ITEMS.register("corndogcat",
             () -> new Item(new Item.Properties().useItemDescriptionPrefix().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("testmod:corndogcat")))));
+    public static final RegistryObject<Item> RAW_CORNDOGCAT = ITEMS.register("raw_corndogcat",
+            () -> new Item(new Item.Properties().useItemDescriptionPrefix().setId(ResourceKey.create(Registries.ITEM, ResourceLocation.parse("testmod:raw_corndogcat")))));
 
 
     public static void register(BusGroup eventBus) {

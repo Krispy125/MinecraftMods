@@ -45,6 +45,7 @@ public final class TestMod {
     private static void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CORNDOGCAT);
+            event.accept(ModItems.RAW_CORNDOGCAT);
         }
 
     }
