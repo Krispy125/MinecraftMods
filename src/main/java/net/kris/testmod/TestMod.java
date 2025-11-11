@@ -1,6 +1,7 @@
 package net.kris.testmod;
 
 import com.mojang.logging.LogUtils;
+import net.kris.testmod.block.ModBlocks;
 import net.kris.testmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,6 +30,7 @@ public final class TestMod {
         FMLCommonSetupEvent.getBus(modBusGroup).addListener(this::commonSetup);
 
         ModItems.register(modBusGroup);
+        ModBlocks.register(modBusGroup);
 
         // Register the item to a creative tab
         BuildCreativeModeTabContentsEvent.BUS.addListener(TestMod::addCreative);
@@ -46,6 +48,9 @@ public final class TestMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CORNDOGCAT);
             event.accept(ModItems.RAW_CORNDOGCAT);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.CORNDOGCAT_BLOCK.get());
         }
 
     }

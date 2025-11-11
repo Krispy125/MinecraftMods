@@ -1,4 +1,6 @@
 {
   "item.testmod.corndogcat": "Corn Dog Cat",
-  "item.testmod.raw_corndogcat": "Raw Corn Dog Cat"
+  "item.testmod.raw_corndogcat": "Raw Corn Dog Cat",
+
+  "block.testmod.corndogcat_block": "Corn Dog Cat Block"
 }
