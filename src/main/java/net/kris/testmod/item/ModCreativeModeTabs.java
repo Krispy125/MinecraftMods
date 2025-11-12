@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
             .icon(() -> new ItemStack(ModItems.CORNDOGCAT.get()))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.CORNDOGCAT.get());
+                pOutput.accept(ModItems.RAW_CORNDOGCAT.get());
                 pOutput.accept(ModBlocks.CORNDOGCAT_BLOCK.get());
             }).build());
         // New Creative Mode Tab

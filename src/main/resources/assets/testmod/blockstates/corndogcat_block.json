@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "testmod:block/corndogcat_block"
+      "model": "kristestmod:block/corndogcat_block"
     }
   }
 }
