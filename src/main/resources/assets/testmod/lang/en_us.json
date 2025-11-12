@@ -2,9 +2,5 @@
   "item.testmod.corndogcat": "Corn Dog Cat",
   "item.testmod.raw_corndogcat": "Raw Corn Dog Cat",
 
-  "block.testmod.corndogcat_block": "Corn Dog Cat Block",
-
-
-
-  "creativetab.testmod.corndogcat_items": "Corn Dog Cat Items"
+  "block.testmod.corndogcat_block": "Corn Dog Cat Block"
 }
