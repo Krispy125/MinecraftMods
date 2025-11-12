@@ -1,7 +1,7 @@
-package net.kris.testmod.block;
+package net.kris.kristestmod.block;
 
-import net.kris.testmod.TestMod;
-import net.kris.testmod.item.ModItems;
+import net.kris.kristestmod.TestMod;
+import net.kris.kristestmod.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;

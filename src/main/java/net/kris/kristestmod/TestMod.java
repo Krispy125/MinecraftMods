@@ -1,16 +1,15 @@
-package net.kris.testmod;
+package net.kris.kristestmod;
 
 import com.mojang.logging.LogUtils;
-import net.kris.testmod.block.ModBlocks;
-import net.kris.testmod.item.ModCreativeModeTabs;
-import net.kris.testmod.item.ModItems;
+import net.kris.kristestmod.block.ModBlocks;
+import net.kris.kristestmod.item.ModCreativeModeTabs;
+import net.kris.kristestmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
-import net.minecraftforge.fml.event.IModBusEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

@@ -1,11 +1,10 @@
-package net.kris.testmod.item;
+package net.kris.kristestmod.item;
 
-import net.kris.testmod.TestMod;
-import net.kris.testmod.block.ModBlocks;
+import net.kris.kristestmod.TestMod;
+import net.kris.kristestmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,7 +16,7 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> CORNDOGTAB = CREATIVE_MODE_TABS.register("corndogtab", ()
     -> CreativeModeTab.builder()
-            .title(Component.translatable("creativetab.testmod.corndogcat_items"))
+            .title(Component.translatable("creativetab.kristestmod.corndogcat_items"))
             .icon(() -> new ItemStack(ModItems.CORNDOGCAT.get()))
             .displayItems((pParameters, pOutput) -> {
                 pOutput.accept(ModItems.CORNDOGCAT.get());
