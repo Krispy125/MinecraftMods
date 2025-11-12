@@ -2,6 +2,7 @@ package net.kris.testmod;
 
 import com.mojang.logging.LogUtils;
 import net.kris.testmod.block.ModBlocks;
+import net.kris.testmod.item.ModCreativeModeTabs;
 import net.kris.testmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,7 @@ public final class TestMod {
 
         // Register the item to a creative tab
         BuildCreativeModeTabContentsEvent.BUS.addListener(TestMod::addCreative);
+        ModCreativeModeTabs.register(modBusGroup);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

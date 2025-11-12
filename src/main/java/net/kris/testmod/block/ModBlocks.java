@@ -35,7 +35,7 @@ public class ModBlocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
-        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM,
+        ModItems.ITEMS.register(name, () -> new BlockItem(block .get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM,
                 ResourceLocation.fromNamespaceAndPath(TestMod.MODID, "corndogcat_block")))));
     }
 
