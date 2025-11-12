@@ -23,7 +23,7 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModItems.CORNDOGCAT.get());
                 pOutput.accept(ModBlocks.CORNDOGCAT_BLOCK.get());
             }).build());
-
+        // New Creative Mode Tab
 
     public static void register(BusGroup eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
