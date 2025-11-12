@@ -3,8 +3,8 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.15,
-  "ingredient": "testmod:raw_corndogcat",
+  "ingredient": "kristestmod:raw_corndogcat",
   "result": {
-    "id": "testmod:corndogcat"
+    "id": "kristestmod:corndogcat"
   }
 }
