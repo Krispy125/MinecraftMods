@@ -52,6 +52,7 @@ public final class TestMod {
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.CORNDOGCAT_BLOCK.get());
+            event.accept(ModBlocks.RAW_CORNDOGCAT_BLOCK.get());
         }
 
     }

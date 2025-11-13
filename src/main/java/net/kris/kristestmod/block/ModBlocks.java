@@ -26,6 +26,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(TestMod.MODID, "corndogcat_block")))
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+    public static final RegistryObject<Block> RAW_CORNDOGCAT_BLOCK = registerBlock("raw_corndogcat_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(TestMod.MODID, "raw_corndogcat_block")))
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
@@ -35,8 +39,9 @@ public class ModBlocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
-        ModItems.ITEMS.register(name, () -> new BlockItem(block .get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM,
-                ResourceLocation.fromNamespaceAndPath(TestMod.MODID, "corndogcat_block")))));
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM,
+                ResourceLocation.fromNamespaceAndPath(TestMod.MODID, "kristestmod")))));
+
     }
 
 
