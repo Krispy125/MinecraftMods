@@ -5,9 +5,9 @@
     "#": "kristestmod:corndogcat"
   },
   "pattern": [
-    "AAA",
-    "AAA",
-    "AAA"
+    "###",
+    "###",
+    "###"
   ],
   "result": {
     "count": 1,

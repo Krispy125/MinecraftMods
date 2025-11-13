@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "ingredient": [
+  "ingredients": [
       "kristestmod:corndogcat_block"
   ],
   "result": {
@@ -9,3 +9,5 @@
     "id": "kristestmod:corndogcat"
   }
 }
+
+
